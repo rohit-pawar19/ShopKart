@@ -10,6 +10,7 @@ import { useContext } from "react";
 import { ThemeContext } from "./Context/ThemeContext";
 import Payment from "./Pages/Payment";
 import Success from "./Pages/Success";
+import Footer from "./Component/Footer";
 
 function App(){
   const {state}=useContext(ThemeContext)
@@ -34,6 +35,7 @@ function App(){
           
           
         </Routes>    
+        <Footer />
      </div>
 
 
